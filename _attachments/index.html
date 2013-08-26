@@ -1,0 +1,122 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IU HPS Graduate Student Database</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Indiana University's History and Philosophy of Science Graduate Student Database">
+    <meta name="author" content="Patrick Craig, COGS Codeman">
+
+    <!-- Style information -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+  
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      </style>
+
+    <!-- HTML5 shim, support pour le internet ancien -->
+    <!-- [if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+        <!-- Top navbar code -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class = "navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+          </a>
+          <a class="brand">HPS Graduate Student Database</a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              Logged in as [placeholder]
+            </p>
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Tutorial</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div> <!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+ 
+
+
+  <!-- Main body code -->  
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span2">
+       <div class="well sidebar-nav">
+        
+        
+        <!--Sidebar content-->
+        <ul class="nav nav-list">
+        <li class="nav-header">Student List</li>
+        <div id="student-listing">
+       
+       
+       
+              
+       <!---   
+        <li class="dropdown">
+        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">A student <i class="icon-chevron-down"></i></a>
+          <ul class="dropdown-menu" role="menu"> 
+            <li><a tabindex="-1" href="#">December 12, 1995</a></li>
+            <li><a tabindex="-1" href="#">December 14, 1996</a></li>
+            <li><a tabindex="-1" href="#">December 17, 1997</a></li>
+            <li><a tabindex="-1" href="#">+ Add a new record</a></li>
+            <li class="divider"></li>
+            <li><a tabindex="-1" href="#"><i class="icon-edit"></i> Edit student name</a></li>
+          </ul> 
+        </li>
+                                                 
+        <li>
+        <a href="#">+ Add a new student</a>
+       </ul> -->
+      </div>
+      </ul>
+      </div>
+      </div>
+
+
+       <!--content ends-->
+
+      <div class="span10">
+        <!-- Body content -->
+        <div class="hero-unit">
+        <h2>IU HPS Graduate Student Database</h2>
+        <p>Welcome to Indiana University's History and Philosophy of Science Graduate Student Database</p>
+        <p>To begin, select a student to the left</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div> <!-- /container -->
+
+
+  <!-- Jabbascript
+  ==================================================== -->
+  <!-- Placed at end of doc so pages load faster -->
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="assets/js/bootstrap.js"></script>
+      <script src="vendor/couchapp/loader.js"></script>
+      <script src="student-listing.js"></script>
+
+
+ </body>
+</html>
